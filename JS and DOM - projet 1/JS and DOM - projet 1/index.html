@@ -7,26 +7,20 @@
   <body>
     <h1 id="myHeading">JavaScript and the DOM</h1>
     <p>Making a web page interactive</p>
-
     <button id="toggleList">Hide list</button>
-
-    <div id="list" class="list">
-      <p id="descriptionP" class="description">Things that are purple:</p>
-
-      <input id="inputDescription" type="text" class="description">
-      <button id="buttonDescription" class="description">Change list description</button>
-
-      <ul id="listUl">
+    <div class="list">
+      <p class="description">Things that are purple:</p>
+      <input type="text" class="description">
+      <button class="description">Change list description</button>
+      <ul>
         <li>grapes</li>
         <li>amethyst</li>
         <li>lavender</li>
         <li>plums</li>
       </ul>
-
-      <input id="inputAddItem" type="text" class="addItemInput">
-      <button id="buttonAddItem" class="addItemButton">Add item</button>
+      <input type="text" class="addItemInput">
+      <button class="addItemButton">Add item</button>
     </div>
-
     <script src="app_test.js"></script>
   </body>
 </html>
